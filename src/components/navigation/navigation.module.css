@@ -10,6 +10,10 @@
     margin: 0.5rem 1rem;
 }
 
+.navList{
+    position: relative;
+}
+
 .logo img{
     max-width: 35px;
     max-height: 35px;
@@ -24,6 +28,50 @@
 
 .navMobile{
     display: none;
+    list-style: none;
+    position: fixed;
+    left: -100%;
+    top: 0.5rem;
+    bottom: 0.5rem;
+    background-color: aqua;
+    width: 85%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 2rem;
+    flex-direction: column;
+    gap: 2rem;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.navActive{
+    left: 0;
+    transition: all 0.3s ease;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4); /* Transparan hitam */
+    backdrop-filter: blur(5px); /* Efek blur */
+    z-index: 10; /* Letakkan di belakang menu */
+}
+
+.closeButton{
+    width: 20px;
+    height: 20px;
+    font-size: 2em;
+    font-weight: 200;
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu{
@@ -42,6 +90,10 @@
 @media screen and (max-width:786px) {
     .navDekstop{
         display: none;
+    }
+
+    .navMobile{
+        display: flex;
     }
 
     .menu{
