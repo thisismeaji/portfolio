@@ -5,27 +5,26 @@
 }
 
 body{
-    display: flex;
-    justify-content: center;
-    
+    height: 300vh;
+    position: relative;
 }
 
-.container{
-    width: 100%;
-    max-width: 1200px;
-    border: 1px solid black;
-    height: 500vh;
-}
 
 header{
-    position: sticky;
-    top: 1rem;
+    position: fixed;
     z-index: 1000;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 
 a{
     color: inherit;
     text-decoration: none;
+}
+
+@media screen and (max-width:786px) {
+    
 }
 

@@ -3,8 +3,11 @@
     align-items: center;
     justify-content: space-between;
     border: 1px solid black;
-    padding: 0.5rem;
-    border-radius: 10px;
+    padding: 00.5rem;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0.5rem 1rem;
 }
 
 .logo img{
@@ -34,4 +37,14 @@
     width: 25px;
     height: 1px;
     background-color: black;
+}
+
+@media screen and (max-width:786px) {
+    .navDekstop{
+        display: none;
+    }
+
+    .menu{
+        display: flex;
+    }
 }
