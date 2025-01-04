@@ -3,34 +3,42 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid black;
     border-radius: 20px;
     margin: 0.5rem;
     padding: 20rem 1.5rem;
+    background-color: var(--secondary);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 6px 8px 33px 3px rgba(233,227,213,0.77);
+    -moz-box-shadow: 6px 8px 33px 3px rgba(233,227,213,0.77);
+    box-shadow: 6px 8px 33px 3px rgba(233,227,213,0.77);
 }
 
 .hero h2{
     font-weight: 600;
     font-size: 2.5em;
+    color: var(--accentTwo);
 }
 
 .hero h1{
     font-weight: 700;
     font-size: 4em;
     text-align: center;
+    color: var(--accentTwo);
 }
 
 .hero p{
     max-width: 700px;
     text-align: center;
     margin-bottom: 1.5rem;
+    color: var(--accentTwo);
 }
 
 .hero button{
-    padding: 0.5rem 1rem;
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    background-color: var(--accent);
+    color: var(--accentTwo);
 }
 
 @media screen and (max-width:786px) {

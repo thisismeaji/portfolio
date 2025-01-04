@@ -2,12 +2,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid black;
     padding: 0.5rem 1rem;
     border-radius: 15px;
     width: 100%;
     max-width: 1200px;
     margin: 0.5rem 1rem;
+    background-color: var(--primary);
 }
 
 .navList{
@@ -27,6 +27,7 @@
     display: flex;
     gap: 1.5rem;
     list-style: none;
+    color: var(--accent);
 }
 
 
@@ -37,7 +38,7 @@
     left: -100%;
     top: 0;
     bottom: 0;
-    background-color: aqua;
+    background-color: var(--secondary);
     width: 85%;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -46,6 +47,7 @@
     gap: 1rem;
     transition: all 0.3s ease;
     z-index: 1000;
+    color: var(--accentTwo);
 }
 
 .navActive{

@@ -7,7 +7,7 @@ export default function Hero() {
         <h2>Hi, I am Aji</h2>
         <h1>a Frontend Developer</h1>
         <p>It feels so rewarding when I successfully turn a design into code.</p>
-        <button>Learn more About Me</button>
+        <button>View My Project</button>
     </div>
   );
 }

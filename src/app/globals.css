@@ -1,3 +1,11 @@
+:root {
+    --primary:#e9e3d5;
+    --secondary:#0a7273;
+    --accent:#033043;
+    --accentTwo: #ffffff;
+}
+
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -7,6 +15,7 @@
 body{
     height: 300vh;
     position: relative;
+    background-color: var(--primary);
 }
 
 
@@ -26,6 +35,7 @@ a{
 
 button{
     font-size: 1em;
+    padding: 0.7rem 1.4rem;
 }
 
 @media screen and (max-width:786px) {
