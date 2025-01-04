@@ -24,6 +24,10 @@ a{
     text-decoration: none;
 }
 
+button{
+    font-size: 1em;
+}
+
 @media screen and (max-width:786px) {
 
     a{
@@ -34,5 +38,21 @@ a{
         font-size: 0.8em;
         line-height: 2;
     }
+
+    button{
+        font-size: 0.8em;
+    }
 }
 
+@media screen and (min-width:786px) and (max-width:1200px){
+    a{
+        font-size: 0.9em;
+    }
+    p{
+        font-size: 0.9em;
+    }
+
+    button{
+        font-size: 0.9em;
+    }
+}
