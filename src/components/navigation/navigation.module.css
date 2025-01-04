@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     border: 1px solid black;
-    padding: 00.5rem;
+    padding: 0.5rem 1rem;
     border-radius: 15px;
     width: 100%;
     max-width: 1200px;
@@ -31,15 +31,15 @@
     list-style: none;
     position: fixed;
     left: -100%;
-    top: 0.5rem;
-    bottom: 0.5rem;
+    top: 0;
+    bottom: 0;
     background-color: aqua;
     width: 85%;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     padding: 2rem;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     transition: all 0.3s ease;
     z-index: 1000;
 }

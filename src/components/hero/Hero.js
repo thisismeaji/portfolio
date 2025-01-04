@@ -5,8 +5,8 @@ export default function Hero() {
   return (
     <div className={Styles.hero}>
         <h2>Hi, I am Aji</h2>
-        <h1>a Fresh Graduate</h1>
-        <p>A fresh graduate with a passion for technology, ready to contribute fresh ideas and continuously develop new skills.</p>
+        <h1>a Frontend Developer</h1>
+        <p>With expertise in HTML, CSS, and JavaScript, I am committed to creating engaging and functional user experiences while continuously learning to keep up with the latest advancements in frontend technology.</p>
         <button>Learn more About Me</button>
     </div>
   );

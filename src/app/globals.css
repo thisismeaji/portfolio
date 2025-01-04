@@ -25,6 +25,14 @@ a{
 }
 
 @media screen and (max-width:786px) {
-    
+
+    a{
+        font-size: 0.8em;
+    }
+
+    p{
+        font-size: 0.8em;
+        line-height: 2;
+    }
 }
 
