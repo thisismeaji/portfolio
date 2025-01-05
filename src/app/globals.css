@@ -34,8 +34,13 @@ a{
 }
 
 button{
-    font-size: 1em;
+    font-size: 0.9em;
     padding: 0.7rem 1.4rem;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
 }
 
 @media screen and (max-width:786px) {
@@ -50,7 +55,7 @@ button{
     }
 
     button{
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 }
 
@@ -63,6 +68,6 @@ button{
     }
 
     button{
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
 }

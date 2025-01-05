@@ -34,9 +34,6 @@
 }
 
 .hero button{
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
     background-color: var(--accent);
     color: var(--accentTwo);
 }

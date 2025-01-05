@@ -1,12 +1,10 @@
-import Hero from '@/components/hero/Hero';
+import Hero from '@/components/section/hero/Hero';
 import React from 'react';
 
 export default function Home() {
   return (
-    <main>
-      <section>
-        <Hero/>
-      </section>
-    </main>
+    <section>
+      <Hero/>
+    </section>
   );
 }
