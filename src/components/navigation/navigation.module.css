@@ -90,7 +90,7 @@
     display: inline-block;
     width: 25px;
     height: 1px;
-    background-color: black;
+    background-color: var(--accent);
 }
 
 @media screen and (max-width:786px) {

@@ -44,11 +44,11 @@
 @media screen and (max-width:786px) {
 
     .hero{
-        padding: 12rem 1.5rem;
+        padding: 10rem 1.5rem;
     }
 
     .hero h1{
-        font-size: 1.7em;
+        font-size: 1.5em;
         margin-bottom: 0.5rem;
     }
 
