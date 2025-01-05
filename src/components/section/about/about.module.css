@@ -1,14 +1,87 @@
 .aboutSection{
     display: flex;
     justify-content: center;
+    gap: 5rem;
     align-items: center;
-    flex-direction: column;
     border-radius: 20px;
     margin: 0.5rem;
-    padding: 20rem 1.5rem;
+    padding: 14rem 1.5rem;
     background-color: var(--secondary);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: 6px 8px 33px 3px rgba(233,227,213,0.77);
     -moz-box-shadow: 6px 8px 33px 3px rgba(233,227,213,0.77);
     box-shadow: 6px 8px 33px 3px rgba(233,227,213,0.77);
+    color: var(--accentTwo);
+}
+
+.aboutImage img{
+    max-width: 345px;
+    max-height: 477px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.aboutText{
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.aboutText h1{
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.aboutText h2{
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.aboutCTA{
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.aboutCTA button{
+    width: 150px;
+    background-color: var(--accent);
+    color: var(--accentTwo);
+}
+
+@media screen and (max-width:786px) {
+    .aboutSection{
+        flex-direction: column;
+        padding: 7rem 1.5rem;
+        gap: 2rem;
+    }
+
+    .aboutText{
+        gap: 0.5rem;
+    }
+
+    .aboutText h1{
+        font-size: 1.5em;
+    }
+    
+    .aboutText h2{
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width:786px) and (max-width:1200px) {
+
+    .aboutSection{
+        gap: 2rem;
+    }
+    .aboutText h1{
+        font-size: 2.5em;
+    }
+    
+    .aboutText h2{
+        font-size: 1.5em;
+        font-weight: 600;
+    }
 }
