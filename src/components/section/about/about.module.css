@@ -32,7 +32,7 @@
 }
 
 .aboutText h1{
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 700;
 }
 
@@ -74,17 +74,25 @@
     }
 }
 
+@media screen and (min-width:786px) and (max-width:1024px){
+
+    .aboutSection{
+        flex-direction: column;
+    }
+
+}
+
 @media screen and (min-width:786px) and (max-width:1200px) {
 
     .aboutSection{
         gap: 2rem;
     }
     .aboutText h1{
-        font-size: 2.5em;
+        font-size: 2em;
     }
     
     .aboutText h2{
-        font-size: 1.5em;
+        font-size: 1.2em;
         font-weight: 600;
     }
 }

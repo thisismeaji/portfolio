@@ -15,13 +15,13 @@
 
 .hero h2{
     font-weight: 600;
-    font-size: 2.5em;
+    font-size: 2em;
     color: var(--accentTwo);
 }
 
 .hero h1{
     font-weight: 700;
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
     color: var(--accentTwo);
 }
@@ -45,7 +45,7 @@
     }
 
     .hero h1{
-        font-size: 1.5em;
+        font-size: 1.2em;
         margin-bottom: 0.5rem;
     }
 
@@ -59,7 +59,7 @@
         padding: 15rem 3rem;
     }
     .hero h1{
-        font-size: 2.5em;
+        font-size: 2em;
         margin-bottom: 0.5rem;
     }
 
