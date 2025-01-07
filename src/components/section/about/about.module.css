@@ -5,7 +5,6 @@
     align-items: center;
     border-radius: 20px;
     margin: 0.5rem;
-    padding: 12rem 1.5rem;
     background-color: var(--secondary);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: 6px 8px 33px 3px rgba(233,227,213,0.77);
@@ -46,7 +45,6 @@
 @media screen and (max-width:786px) {
     .aboutSection{
         flex-direction: column;
-        padding: 7rem 1.5rem;
         gap: 2rem;
     }
 
@@ -67,6 +65,5 @@
 
     .aboutSection{
         gap: 2rem;
-        padding: 8rem 2rem;
     }
 }

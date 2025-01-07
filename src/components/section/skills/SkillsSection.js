@@ -3,7 +3,7 @@ import Styles from "../skills/skills.module.css"
 
 export default function SkillsSection() {
   return (
-    <div className={Styles.skillsSection}>
+    <section className={Styles.skillsSection}>
       <div className={Styles.title}>
         <h2>Skills & Proficiencies</h2>
       </div>
@@ -33,6 +33,6 @@ export default function SkillsSection() {
           <p>The ability to analyze facts, think logically, and make decisions based on evidence.</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

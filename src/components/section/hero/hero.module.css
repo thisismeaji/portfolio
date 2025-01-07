@@ -4,8 +4,8 @@
     align-items: center;
     flex-direction: column;
     border-radius: 20px;
+    height: 800px;
     margin: 0.5rem;
-    padding: 20rem 1.5rem;
     background-color: var(--secondary);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: 6px 8px 33px 3px rgba(233,227,213,0.77);
@@ -41,7 +41,7 @@
 @media screen and (max-width:786px) {
 
     .hero{
-        padding: 10rem 1.5rem;
+        height: 500px;
     }
 
     .hero h1{
@@ -55,9 +55,11 @@
 }
 
 @media screen and (min-width:786px) and (max-width:1200px){
+
     .hero{
-        padding: 15rem 3rem;
+        height: 650px;
     }
+    
     .hero h1{
         font-size: 2em;
         margin-bottom: 0.5rem;

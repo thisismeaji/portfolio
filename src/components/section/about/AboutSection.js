@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function AboutSection  () {
   return (
-    <div className={Styles.aboutSection}>
+    <section className={Styles.aboutSection}>
       <div className={Styles.aboutImage}>
         <Image
           src="/images/profile.png"
@@ -24,6 +24,6 @@ export default function AboutSection  () {
           <button>Donwload CV</button>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
