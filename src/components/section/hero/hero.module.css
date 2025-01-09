@@ -52,6 +52,10 @@
     .hero h2{
         font-size: 1.2em;
     }
+
+    .hero p{
+        max-width: 400px;
+    }
 }
 
 @media screen and (min-width:786px) and (max-width:1200px){
@@ -67,6 +71,10 @@
 
     .hero h2{
         font-size: 1.5em;
+    }
+
+    .hero p{
+        max-width: 550px;
     }
 
 }

@@ -11,6 +11,7 @@
     -moz-box-shadow: 6px 8px 33px 3px rgba(233,227,213,0.77);
     box-shadow: 6px 8px 33px 3px rgba(233,227,213,0.77);
     color: var(--accentTwo);
+    padding: 10rem 2rem;
 }
 
 .aboutImage img{
@@ -46,6 +47,7 @@
     .aboutSection{
         flex-direction: column;
         gap: 2rem;
+        padding: 5rem 2rem;
     }
 
     .aboutText{
@@ -65,5 +67,6 @@
 
     .aboutSection{
         gap: 2rem;
+        padding: 8rem 2rem;
     }
 }

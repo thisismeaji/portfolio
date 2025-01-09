@@ -27,10 +27,6 @@ header{
     width: 100%;
 }
 
-section{
-    padding: 8rem 2rem;
-}
-
 h1{
     font-size: 3em;
     font-weight: 700;
@@ -75,9 +71,6 @@ button{
 
 @media screen and (max-width:786px) {
 
-    section{
-        padding: 4rem 2rem;
-    }
 
     a{
         font-size: 0.8em;
@@ -111,9 +104,6 @@ button{
 
 @media screen and (min-width:786px) and (max-width:1200px){
 
-    section{
-        padding: 6rem 2rem;
-    }
 
 
     a{

@@ -5,9 +5,9 @@ export default function Hero() {
   return (
     <section className={Styles.hero}>
         <h2>Hi, I am Aji</h2>
-        <h1>a Frontend Developer</h1>
-        <p>It feels so rewarding when I successfully turn a design into code.</p>
-        <button>View My Project</button>
+        <h1>a Fresh Graduate</h1>
+        <p>I find it incredibly fulfilling to take on challenges, learn new skills, and grow with every step of the journey.</p>
+        <button>Let's talk!</button>
     </section>
   );
 }
