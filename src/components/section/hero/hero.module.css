@@ -42,6 +42,7 @@
 
     .hero{
         height: 500px;
+        padding: 2rem;
     }
 
     .hero h1{
