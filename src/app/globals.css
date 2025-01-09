@@ -76,7 +76,7 @@ button{
 @media screen and (max-width:786px) {
 
     section{
-        padding: 5rem 2rem;
+        padding: 4rem 2rem;
     }
 
     a{
@@ -92,11 +92,11 @@ button{
     }
 
     h3{
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 
     h4{
-        font-size: 1em;
+        font-size: 0.9em;
     }
 
     p{
@@ -110,6 +110,12 @@ button{
 }
 
 @media screen and (min-width:786px) and (max-width:1200px){
+
+    section{
+        padding: 6rem 2rem;
+    }
+
+
     a{
         font-size: 0.9em;
     }
@@ -123,7 +129,7 @@ button{
     }
 
     h3{
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
 
     h4{
