@@ -11,4 +11,5 @@
     -webkit-box-shadow: 6px 8px 33px 3px rgba(233,227,213,0.77);
     -moz-box-shadow: 6px 8px 33px 3px rgba(233,227,213,0.77);
     box-shadow: 6px 8px 33px 3px rgba(233,227,213,0.77);
+    color: var(--accentTwo);
 }
