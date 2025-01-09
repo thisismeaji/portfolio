@@ -27,7 +27,7 @@
 @media screen and (max-width:786px) {
     .skillsSection{
         flex-direction: column;
-        gap: 1rem;
+        gap: 2rem;
     }
 
     .main{
