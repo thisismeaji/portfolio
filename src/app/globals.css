@@ -12,12 +12,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-size: 16px;
 }
 
 body{
     height: 300vh;
     position: relative;
-    background-color: var(--primary);
+    background-color: var(--white);
 }
 
 
@@ -35,18 +36,8 @@ h1{
 }
 
 h2{
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 600;
-}
-
-h3{
-    font-size: 1.7em;
-    font-weight: 600;
-}
-
-h4{
-    font-size: 1.2em;
-    font-weight: 500;
 }
 
 p{

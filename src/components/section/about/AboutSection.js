@@ -21,8 +21,6 @@ export default function AboutSection  () {
         <p>I am enthusiastic about taking on challenges, enjoy teamwork, and am determined to make meaningful contributions to any organization.</p>
         <p>I am committed to continuous growth and ready to seize opportunities that allow me to develop while adding value to the workplace.</p>
         <div className={Styles.aboutCTA}>
-          <button>Hire Me</button>
-          <button>Donwload CV</button>
         </div>
       </div>
     </section>

@@ -1,13 +1,23 @@
 import React from 'react';
 import Styles from "../hero/hero.module.css";
+import Image from 'next/image';
 
 export default function Hero() {
   return (
     <section className={Styles.hero}>
-        <h2>Hi, I am Aji</h2>
-        <h1>a Fresh Graduate</h1>
-        <p>I find it incredibly fulfilling to take on challenges, learn new skills, and grow with every step of the journey.</p>
-        <button>Let's talk!</button>
+        <div className={Styles.heroText}>
+          <h2>Frontend Developer</h2>
+          <h1>Ajisaka Kamandanu</h1>
+          <p>IHi, I'm Aji, a Frontend Developer focused on creating responsive, intuitive, and user-friendly web interfaces. I enjoy turning ideas into engaging and functional digital experiences.</p>
+        </div>
+        <div className={Styles.heroImage}>
+          <Image
+            src="/images/profile.png"
+            alt="Logo"
+            width="1000"
+            height="1000"
+          />
+        </div>
     </section>
   );
 }
