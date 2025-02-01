@@ -47,8 +47,12 @@ p{
 
 
 a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     color: inherit;
     text-decoration: none;
+    max-width:fit-content;
 }
 
 button{
@@ -56,14 +60,18 @@ button{
     font-weight: 500;
     border: none;
     cursor: pointer;
-    margin-top: 2rem;
     background-color: transparent;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
 }
 
 button img{
     width: 50px;
     height: 10px;
-    margin-left: 15px;
 }
 
 @media screen and (min-width:786px) and (max-width:1200px){

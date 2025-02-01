@@ -30,8 +30,9 @@
     margin-bottom: 1.5rem;
 }
 
-.aboutText p{
+.aboutText p:nth-of-type(4){
     line-height: 2;
+    margin-bottom: 2rem;
 }
 
 @media screen and (min-width:786px) and (max-width:1200px) {

@@ -1,5 +1,6 @@
 import Hero from '@/components/section/hero/Hero';
 import Introduction from '@/components/section/introduction/Introduction';
+import PortfolioSection from '@/components/section/portfolio/PortfolioSection';
 import React from 'react';
 
 export const metadata = {
@@ -13,6 +14,7 @@ export default function Home() {
     <>
       <Hero />
       <Introduction/>
+      <PortfolioSection/>
     </>
   );
 }
