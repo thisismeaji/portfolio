@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem 1rem;
-    border-radius: 15px;
+    border-radius: 5px;
     width: 100%;
     max-width: 1250px;
     margin: 0.5rem 1rem;
@@ -84,14 +84,19 @@
 .menu{
     display: none;
     flex-direction: column;
+    align-items: flex-end;
     gap: 7px;
 }
 
 .menu span{
     display: inline-block;
     width: 25px;
-    height: 1px;
+    height: 1.5px;
     background-color: var(--primary);
+}
+
+.menu span:nth-of-type(1), .menu span:nth-of-type(3){
+    width: 20px;
 }
 
 @media screen and (max-width:786px) {
