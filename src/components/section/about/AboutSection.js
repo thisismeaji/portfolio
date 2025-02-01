@@ -8,7 +8,7 @@ export default function AboutSection  () {
     <section className={Styles.aboutSection}>
       <div className={Styles.aboutImage}>
         <Image
-          src="/images/profile.png"
+          src="/assets/profile.png"
           width={1000}
           height={1000}
           alt='Profile aji'

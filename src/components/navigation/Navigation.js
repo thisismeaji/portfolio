@@ -28,7 +28,7 @@ export default function Navigation() {
             <Link href="/">
                 <div className={Styles.logo}>
                     <Image
-                        src="/images/logo.png"
+                        src="/assets/logo.png"
                         alt="Logo"
                         width="1000"
                         height="1000"

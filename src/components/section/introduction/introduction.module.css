@@ -1,0 +1,43 @@
+.introduction{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 15rem 2rem;
+    width: 100%;
+    max-width: 1200px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.introductionImage img{
+    width: 100%;
+    height: 100%;
+    max-width: 357px;
+    max-height: 319;
+}
+
+.introductionText{
+    max-width: 668px;
+}
+
+@media screen and (max-width:786px){
+
+    .introduction{
+        padding: 1.5rem;
+        height: 500px;
+        justify-content: flex-start;
+    }
+    
+}
+
+@media screen and (min-width:786px) and (max-width:1200px){
+    .introduction{
+        padding: 10rem 2rem;
+        position:relative;
+        justify-content: flex-start;
+        
+    }
+}
+

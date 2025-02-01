@@ -11,7 +11,7 @@ export default function Button({ text, link}) {
             <button className={Styles.buttonOne}>
                 {text}
                 <Image
-                src="/images/arrowtwo.png"
+                src="/assets/arrowtwo.png"
                 alt='Button Arrow'
                 width={1000}
                 height={2}
