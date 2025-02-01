@@ -39,6 +39,16 @@
     max-height: 950px;
 }
 
+@media screen and (min-width:786px) and (max-width:1200px){
+    .hero{
+        height: 100%;
+        padding: 10rem 2rem;
+    }
+
+    .heroImage{
+        display: none;
+    }
+}
 
 @media screen and (max-width:786px) {
 
@@ -57,15 +67,3 @@
 
 
 }
-
-@media screen and (min-width:786px) and (max-width:1200px){
-    .hero{
-        height: 100%;
-        padding: 10rem 2rem;
-    }
-
-    .heroImage{
-        display: none;
-    }
-}
-

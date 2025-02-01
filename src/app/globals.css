@@ -51,38 +51,19 @@ a{
     text-decoration: none;
 }
 
+button{
+    font-size: 1.2em;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    background-color: transparent;
+}
 
-@media screen and (max-width:786px) {
-
-
-    a{
-        font-size: 0.8em;
-    }
-
-    h1{
-        font-size: 1.5em;
-    }
-
-    h2{
-        font-size: 1em;
-    }
-
-    h3{
-        font-size: 1.2em;
-    }
-
-    h4{
-        font-size: 0.9em;
-    }
-
-    p{
-        font-size: 0.8em;
-        line-height: 2;
-    }
-
-    button{
-        font-size: 1.1em;
-    }
+button img{
+    width: 50px;
+    height: 10px;
+    margin-left: 15px;
 }
 
 @media screen and (min-width:786px) and (max-width:1200px){
@@ -101,14 +82,6 @@ a{
         font-size: 1.4em;
     }
 
-    h3{
-        font-size: 1.4em;
-    }
-
-    h4{
-        font-size: 1.1em;
-    }
-
     p{
         font-size: 0.9em;
     }
@@ -117,3 +90,36 @@ a{
         font-size: 1.1em;
     }
 }
+
+
+
+@media screen and (max-width:786px) {
+
+
+    a{
+        font-size: 0.8em;
+    }
+
+    h1{
+        font-size: 1.5em;
+    }
+
+    h2{
+        font-size: 1em;
+    }
+
+    p{
+        font-size: 0.8em;
+        line-height: 2;
+    }
+
+    button{
+        font-size: 1.1em;
+    }
+
+    button img{
+        height: 10px;
+        width: 40px;
+    }
+}
+

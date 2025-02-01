@@ -22,16 +22,6 @@
     max-width: 668px;
 }
 
-@media screen and (max-width:786px){
-
-    .introduction{
-        padding: 1.5rem;
-        height: 500px;
-        justify-content: flex-start;
-    }
-    
-}
-
 @media screen and (min-width:786px) and (max-width:1200px){
     .introduction{
         padding: 10rem 2rem;
@@ -41,3 +31,12 @@
     }
 }
 
+@media screen and (max-width:786px){
+
+    .introduction{
+        padding: 1.5rem;
+        height: 500px;
+        justify-content: flex-start;
+    }
+    
+}

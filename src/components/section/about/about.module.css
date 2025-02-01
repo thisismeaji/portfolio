@@ -35,6 +35,28 @@
     line-height: 2;
 }
 
+@media screen and (min-width:786px) and (max-width:1200px) {
+
+    .aboutSection{
+        gap: 2rem;
+        padding: 7rem 2rem;
+        height: 100%;
+    }
+
+    .aboutText h2{
+        margin-top: -0.2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width:786px) and (max-width:1024px){
+
+    .aboutSection{
+        flex-direction: column;
+    }
+
+}
+
 @media screen and (max-width:786px) {
 
     .aboutSection{
@@ -54,26 +76,4 @@
     }
 
     
-}
-
-@media screen and (min-width:786px) and (max-width:1024px){
-
-    .aboutSection{
-        flex-direction: column;
-    }
-
-}
-
-@media screen and (min-width:786px) and (max-width:1200px) {
-
-    .aboutSection{
-        gap: 2rem;
-        padding: 7rem 2rem;
-        height: 100%;
-    }
-
-    .aboutText h2{
-        margin-top: -0.2rem;
-        margin-bottom: 1rem;
-    }
 }
