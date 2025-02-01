@@ -25,14 +25,16 @@ export default function Navigation() {
 
     return (
         <nav className={Styles.nav}>
-            <div className={Styles.logo}>
-                <Image
-                    src="/images/logo.png"
-                    alt="Logo"
-                    width="1000"
-                    height="1000"
-                />
-            </div>
+            <Link href="/">
+                <div className={Styles.logo}>
+                    <Image
+                        src="/images/logo.png"
+                        alt="Logo"
+                        width="1000"
+                        height="1000"
+                    />
+                </div>
+            </Link>
             <div className={Styles.navList}>
                 {/* Desktop Navigation */}
                 <ul className={Styles.navDekstop}>

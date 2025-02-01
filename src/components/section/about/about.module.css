@@ -10,13 +10,11 @@
 }
 
 .aboutImage img{
-    width: 100%;
-    height: 100%;
-    max-width: 383px;
-    max-height: 538px;
+    max-width: 400px;
+    max-height: 600px;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .aboutText{
@@ -33,18 +31,6 @@
 
 .aboutText p{
     line-height: 2;
-}
-
-.aboutCTA{
-    display: flex;
-    gap: 1rem;
-    margin-top: 0.5rem;
-}
-
-.aboutCTA button{
-    width: 150px;
-    background-color: var(--accent);
-    color: var(--accentTwo);
 }
 
 @media screen and (max-width:786px) {
