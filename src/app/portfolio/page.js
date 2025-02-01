@@ -1,10 +1,10 @@
-import ProjectsSection from '@/components/section/projects/ProjectsSection';
+import PortfolioSection from '@/components/section/portfolio/PortfolioSection';
 import React from 'react';
 
 export default function Projects() {
   return (
     <section>
-      <ProjectsSection/>
+      <PortfolioSection/>
     </section>
   );
 }

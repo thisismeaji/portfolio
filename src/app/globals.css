@@ -1,8 +1,10 @@
 :root {
-    --primary:#e9e3d5;
-    --secondary:#0a7273;
-    --accent:#033043;
-    --accentTwo: #ffffff;
+    --primary:#1B262C;
+    --secondary:#0F4C75;
+    --accent:#3282B8;
+    --accentTwo: #BBE1FA;
+    --white: #ffffff;
+    --black: #000000;
 }
 
 

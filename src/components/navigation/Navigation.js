@@ -43,7 +43,7 @@ export default function Navigation() {
                         <Link href="/about">About</Link>
                     </li>
                     <li>
-                        <Link href="/projects">Projects</Link>
+                        <Link href="/portfolio">Portfolio</Link>
                     </li>
                     <li>
                         <Link href="/contact">Contact</Link>
@@ -59,7 +59,7 @@ export default function Navigation() {
                         <Link href="/about" onClick={handleNavLinkClick}>About</Link>
                     </li>
                     <li>
-                        <Link href="/projects" onClick={handleNavLinkClick}>Projects</Link>
+                        <Link href="/portfolio" onClick={handleNavLinkClick}>Portfolio</Link>
                     </li>
                     <li>
                         <Link href="/contact" onClick={handleNavLinkClick}>Contact</Link>
