@@ -15,7 +15,6 @@ export default function PortfolioSection() {
           <Projects/>
         </div>
       </section>
-      <ServiceSection/>
     </>
   );
 }

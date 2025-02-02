@@ -8,7 +8,7 @@ export default function Introduction() {
     <section className={Styles.introduction}>
       <div className={Styles.introductionText}>
         <h2>A Little About Me</h2>
-        <h1>It feels so rewarding when I successfully turn a design into code.</h1>
+        <h1>I enjoy turning ideas into engaging and functional digital experiences.</h1>
         <BodyButton text="Learn More" link="/about"/>
       </div>
     </section>

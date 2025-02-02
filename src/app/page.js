@@ -3,12 +3,13 @@ import Hero from '@/components/section/hero/Hero';
 import Introduction from '@/components/section/introduction/Introduction';
 import PortfolioSection from '@/components/section/portfolio/PortfolioSection';
 import Quotes from '@/components/section/quotes/Quotes';
+import ServiceSection from '@/components/section/service/ServiceSection';
 import Head from 'next/head';
 import React from 'react';
 
 export const metadata = {
   title: 'Ajisaka Kamandanu',
-  description: "Hi, I'm Aji, a Frontend Developer focused on creating responsive, intuitive, and user-friendly web interfaces. I enjoy turning ideas into engaging and functional digital experiences.",
+  description: "Hi, I'm Aji, a Frontend Developer focused on creating responsive, intuitive, and user-friendly web interfaces.",
   alternates: {
     canonical: 'https://thisismeaji.com/'
   }
@@ -74,7 +75,7 @@ export default function Home() {
       
       {/* Open Graph Meta Tags */}
       <Head>
-        <meta property="og:title" content="Aji Saka Kamandanu - Frontend Developer" />
+        <meta property="og:title" content="Ajisaka Kamandanu - Frontend Developer" />
         <meta property="og:description" content="Hi, I'm Aji, a Frontend Developer focused on creating responsive, intuitive, and user-friendly web interfaces." />
         <meta property="og:image" content="https://thisismeaji.com/images/profile.jpg" />
         <meta property="og:url" content="https://thisismeaji.com/" />
@@ -83,6 +84,7 @@ export default function Home() {
       <Hero />
       <Introduction />
       <PortfolioSection />
+      <ServiceSection/>
       <Quotes />
       <ContactSection />
     </>
