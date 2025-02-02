@@ -61,6 +61,11 @@ a{
     max-width:fit-content;
 }
 
+li{
+    font-size: 1em;
+    font-weight: 400;
+}
+
 button{
     font-size: 1.2em;
     font-weight: 500;
@@ -105,6 +110,10 @@ button img{
         font-size: 0.9em;
     }
 
+    li{
+        font-size: 0.9em;
+    }
+
     button{
         font-size: 1.1em;
     }
@@ -135,6 +144,10 @@ button img{
     p{
         font-size: 0.8em;
         line-height: 2;
+    }
+
+    li{
+        font-size: 0.8em;
     }
 
     button{
