@@ -3,6 +3,7 @@ import Hero from '@/components/section/hero/Hero';
 import Introduction from '@/components/section/introduction/Introduction';
 import PortfolioSection from '@/components/section/portfolio/PortfolioSection';
 import Quotes from '@/components/section/quotes/Quotes';
+import Head from 'next/head';
 import React from 'react';
 
 export const metadata = {
@@ -16,6 +17,42 @@ export const metadata = {
 export default function Home() {
   return (
     <>
+      {/* Website Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Website", 
+            "url": "https://thisismeaji.com/",
+            "name": "Ajisaka Kamandanu - Frontend Developer",
+            "description": "Hi, I'm Aji, a Frontend Developer focused on creating responsive, intuitive, and user-friendly web interfaces."
+          })
+        }}
+      />
+      
+      {/* Person Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Ajisaka Kamandanu",
+            "jobTitle": "Frontend Developer",
+            "url": "https://thisismeaji.com/",
+            "image": "https://thisismeaji.com/public/assets/profile.png",
+            "sameAs": [
+              "https://www.instagram.com/thisisme_aji/",
+              "https://www.facebook.com/profile.php?id=100090748616081",
+              "https://www.threads.net/@thisisme_aji",
+              "https://x.com/thisismeaji"
+            ],
+            "description": "Ajisaka Kamandanu is a Frontend Developer focused on creating responsive and user-friendly web interfaces."
+          })
+        }}
+      />
+      
       {/* Breadcrumb Schema */}
       <script
         type="application/ld+json"
@@ -34,6 +71,15 @@ export default function Home() {
           })
         }}
       />
+      
+      {/* Open Graph Meta Tags */}
+      <Head>
+        <meta property="og:title" content="Aji Saka Kamandanu - Frontend Developer" />
+        <meta property="og:description" content="Hi, I'm Aji, a Frontend Developer focused on creating responsive, intuitive, and user-friendly web interfaces." />
+        <meta property="og:image" content="https://thisismeaji.com/images/profile.jpg" />
+        <meta property="og:url" content="https://thisismeaji.com/" />
+      </Head>
+
       <Hero />
       <Introduction />
       <PortfolioSection />

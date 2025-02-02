@@ -38,6 +38,19 @@ export default function About() {
           })
         }}
       />
+      {/* WebPage Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "About",
+            "url": "https://thisismeaji.com/about",
+            "description": "As a fresh graduate, I possess a strong passion for frontend development, adaptability, and a great willingness to learn new technologies in the field of web development."
+          })
+        }}
+      />
       <AboutSection />
       <SkillsSection />
       <ContactSection />

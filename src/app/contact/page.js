@@ -35,6 +35,19 @@ export default function Contact() {
           })
         }}
       />
+      {/* ContactPage Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ContactPage",
+            "url": "https://thisismeaji.com/contact",
+            "name": "Contact",
+            "description": "Reach out and let’s build something great! and Explore the ways to connect with me."
+          })
+        }}
+      />
       <ContactSection/>
     </>
   );

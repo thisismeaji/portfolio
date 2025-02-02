@@ -37,6 +37,19 @@ export default function Projects() {
           })
         }}
       />
+      {/* Portfolio Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CreativeWork",
+            "url": "https://thisismeaji.com/portfolio",
+            "name": "Portfolio",
+            "description": "A collection of projects showcasing my skills and dedication in frontend development."
+          })
+        }}
+      />
       <PortfolioSection/>
       <ContactSection/>
     </>
