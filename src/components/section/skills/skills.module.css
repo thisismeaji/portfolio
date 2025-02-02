@@ -1,11 +1,138 @@
 .skillsSection{
-    
+    padding: 10rem 2rem 0 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.skillsSection > div{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skillsSection > div h2{
+    margin-bottom: 0.5rem;
+}
+
+.skillsSection > div > div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.skillsSection > div > div:nth-of-type(2) h3{
+    margin-top: 2rem;
+}
+
+.skills h1{
+    margin-bottom: 2rem;
+}
+
+.skills .bar{
+    width: 100%;
+}
+
+.skills .bar span{
+    width: 100%;
+    height: 1rem;
+    background-color: var(--accentTwo);
+    display: inline-block;
+    border-radius: 5;
+    position: relative;
+}
+
+.skills .bar:nth-of-type(1) span::before, .skills .bar:nth-of-type(2) span::before, .skills .bar:nth-of-type(3) span::before, .skills .bar:nth-of-type(4) span::before{
+    content: "";
+    height: 1rem;
+    background-color: var(--secondary);
+    display: inline-block;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.skills .bar:nth-of-type(1) span::before{
+    width: 90%;
+}
+
+.skills .bar:nth-of-type(2) span::before{
+    width: 85%;
+}
+
+.skills .bar:nth-of-type(3) span::before{
+    width: 65%;
+}
+
+.skills .bar:nth-of-type(4) span::before{
+    width: 50%;
+}
+
+.bar span{
+    margin: 0.5rem 0;
+}
+
+.bar p:nth-of-type(2){
+    text-align: right;
+}
+
+
+
+
+@media screen and (min-width:786px) and (max-width:1200px){
+    .skillsSection{
+        padding: 5rem 2rem 0 2rem;
+    }
+
+    .skillsSection > div > div:nth-of-type(2) h3{
+        margin-top: 1.5rem;
+    }
+
+    .skillsSection h1{
+        max-width: 500px;
+    }
+
+    .skills .bar span{
+        height: 0.7rem;
+    }
+
+    .skills .bar:nth-of-type(1) span::before, .skills .bar:nth-of-type(2) span::before, .skills .bar:nth-of-type(3) span::before, .skills .bar:nth-of-type(4) span::before{
+        height: 0.7rem;
+    }
+
+    .bar span{
+        margin: 0.3rem 0;
+    }
 }
 
 @media screen and (max-width:786px) {
-    
-}
+    .skillsSection{
+        padding: 7rem 1.5rem 0 1.5rem;
+    }
 
-@media screen and (min-width:786px) and (max-width:1200px){
-    
+    .skillsSection > div{
+        flex-direction: column-reverse;
+        gap: 7rem;
+    }
+
+    .skillsSection > div > div:nth-of-type(2){
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .skillsSection > div > div:nth-of-type(2) h3{
+        margin-top: 1rem;
+    }
+
+    .skills .bar span{
+        height: 0.5rem;
+    }
+
+    .skills .bar:nth-of-type(1) span::before, .skills .bar:nth-of-type(2) span::before, .skills .bar:nth-of-type(3) span::before, .skills .bar:nth-of-type(4) span::before{
+        height: 0.5rem;
+    }
+
+    .bar span{
+        margin: 0.2rem 0;
+    }
 }

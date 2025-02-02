@@ -5,8 +5,7 @@
     align-items: center;
     background-color: var(--white);
     color: var(--black);
-    padding: 2rem;
-    height: 950px;
+    padding: 10rem 2rem 0 2rem;
 }
 
 .aboutImage img{
@@ -39,7 +38,7 @@
 
     .aboutSection{
         gap: 2rem;
-        padding: 7rem 2rem;
+        padding: 7rem 2rem 0 2rem;
         height: 100%;
     }
 
@@ -53,6 +52,11 @@
 
     .aboutSection{
         flex-direction: column;
+        padding: 7rem 2rem 0 2rem;
+    }
+
+    .aboutText{
+        max-width: none;
     }
 
 }
@@ -62,7 +66,7 @@
     .aboutSection{
         flex-direction: column;
         gap: 2rem;
-        padding: 5rem 1.5rem 3rem 1.5rem;
+        padding: 5rem 1.5rem 0 1.5rem;
         height: 100%;
     }
 
