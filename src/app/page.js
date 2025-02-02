@@ -10,11 +10,30 @@ export const metadata = {
   description: "Hi, I'm Aji, a Frontend Developer focused on creating responsive, intuitive, and user-friendly web interfaces. I enjoy turning ideas into engaging and functional digital experiences.",
   alternates: {
     canonical: 'https://thisismeaji.com/'
-  }};
+  }
+};
 
 export default function Home() {
   return (
     <>
+      {/* Breadcrumb Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://thisismeaji.com/"
+              }
+            ]
+          })
+        }}
+      />
       <Hero />
       <Introduction />
       <PortfolioSection />
