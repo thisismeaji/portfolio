@@ -4,9 +4,11 @@ import SkillsSection from '@/components/section/skills/SkillsSection';
 import ContactSection from '@/components/section/contact/ContactSection';
 
 export const metadata = {
-  title: 'About Me',
-  description: 'I am Aji, a fresh graduate with a passion for technology, eager to learn and grow. Discover my skills, education, certifications, and experiences as I embark on my professional journey.',
-};
+  title: 'About',
+  description: 'As a fresh graduate, I possess a strong passion for frontend development, adaptability, and a great willingness to learn new technologies in the field of web development.',
+   alternates: {
+    canonical: 'https://thisismeaji.com/about'
+}};
 
 export default function About() {
   return (

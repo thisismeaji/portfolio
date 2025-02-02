@@ -14,7 +14,7 @@ export default function Footer() {
             <p>Connect with me</p>
             <ul>
                 <li>
-                    <Link href="/instagram">
+                    <Link href="https://www.instagram.com/thisisme_aji/">
                         <Image
                             src="/assets/icons/instagram.png"
                             alt="Instagram Aji"
@@ -24,7 +24,7 @@ export default function Footer() {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/facebook">
+                    <Link href="https://www.facebook.com/profile.php?id=100090748616081">
                         <Image
                             src="/assets/icons/facebook.png"
                             alt="facebook Aji"
@@ -34,7 +34,7 @@ export default function Footer() {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/threads">
+                    <Link href="https://www.threads.net/@thisisme_aji">
                         <Image
                             src="/assets/icons/threads.png"
                             alt="threads Aji"
@@ -44,7 +44,7 @@ export default function Footer() {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/twitter">
+                    <Link href="https://x.com/thisismeaji">
                         <Image
                             src="/assets/icons/twitter.png"
                             alt="twitter Aji"

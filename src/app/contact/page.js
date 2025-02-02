@@ -2,9 +2,11 @@ import ContactSection from '@/components/section/contact/ContactSection';
 import React from 'react';
 
 export const metadata = {
-  title: 'Contact Me',
-  description: 'Feel free to reach out! Whether you have questions or want to collaborate, I’m always open to connecting with others in the tech community.',
-};
+  title: 'Contact',
+  description: 'Reach out and let’s build something great! and Explore the ways to connect with me,',
+  alternates: {
+    canonical: 'https://thisismeaji.com/contact'
+}};
 
 export default function Contact() {
   return (
