@@ -10,9 +10,6 @@ export default function Quotes() {
                 <h3>Steve Jobs</h3>
                 <p>Co-founder, Chairman, and CEO of Apple Inc.</p>
             </div>
-            <div className={Styles.rectangle}>
-
-            </div>
         </div>
     </section>
   )

@@ -69,22 +69,7 @@
         padding: 10rem 2rem 0 2rem;
     }
 
-    .serviceCTA{
-        justify-content: flex-start;
-        align-items: flex-start;
-    }
-
-    .serviceCTA h1, .serviceCTA p{
-        text-align: left;
-    }
-
-    .serviceCTA button{
-        direction: ltr;
-    }
     
-    .serviceCTA button img{
-        transform: rotate(0);
-    }
 }
 
 @media screen and (max-width:786px) {
