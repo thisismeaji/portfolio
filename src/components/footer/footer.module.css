@@ -38,7 +38,7 @@
 @media screen and (max-width:786px){
     .footer > div{
         flex-direction: column-reverse;
-        gap: 2rem;
+        gap: 1rem;
         align-items: center;
     }
 
@@ -47,7 +47,7 @@
         max-height: 15px;
     }
 
-    .footer > div > div:nth-of-type(2){
+    .footer p{
         text-align: center;
     }
 
