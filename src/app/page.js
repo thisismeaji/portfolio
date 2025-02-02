@@ -1,6 +1,7 @@
 import Hero from '@/components/section/hero/Hero';
 import Introduction from '@/components/section/introduction/Introduction';
 import PortfolioSection from '@/components/section/portfolio/PortfolioSection';
+import Quotes from '@/components/section/quotes/Quotes';
 import ServiceSection from '@/components/section/service/ServiceSection';
 import React from 'react';
 
@@ -17,6 +18,7 @@ export default function Home() {
       <Introduction/>
       <PortfolioSection/>
       <ServiceSection/>
+      <Quotes/>
     </>
   );
 }
