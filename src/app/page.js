@@ -1,3 +1,4 @@
+import ContactSection from '@/components/section/contact/ContactSection';
 import Hero from '@/components/section/hero/Hero';
 import Introduction from '@/components/section/introduction/Introduction';
 import PortfolioSection from '@/components/section/portfolio/PortfolioSection';
@@ -19,6 +20,7 @@ export default function Home() {
       <PortfolioSection/>
       <ServiceSection/>
       <Quotes/>
+      <ContactSection/>
     </>
   );
 }
