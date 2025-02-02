@@ -16,7 +16,7 @@
 }
 
 body{
-    height: 300vh;
+    height: 500vh;
     position: relative;
     background-color: var(--white);
 }
@@ -40,9 +40,15 @@ h2{
     font-weight: 600;
 }
 
+h3{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
 p{
     font-size: 1em;
     font-weight: 400;
+    line-height: 2;
 }
 
 
@@ -90,6 +96,11 @@ button img{
         font-size: 1.4em;
     }
 
+    h3{
+        font-size: 1.1em;
+        font-weight: 500;
+    }
+
     p{
         font-size: 0.9em;
     }
@@ -114,6 +125,11 @@ button img{
 
     h2{
         font-size: 1em;
+    }
+
+    h3{
+        font-size: 0.9em;
+        font-weight: 500;
     }
 
     p{

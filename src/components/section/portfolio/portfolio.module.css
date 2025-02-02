@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10rem 2rem;
+    padding: 10rem 2rem 0 2rem;
     flex-direction: column;
 }
 
@@ -18,14 +18,14 @@
 
 @media screen and (min-width:786px) and (max-width:1200px){
     .portfolio{
-        padding: 10rem 2rem;
+        padding: 10rem 2rem 0 2rem;
     }
 }
 
 @media screen and (max-width:786px) {
 
     .portfolio{
-        padding: 7rem 1.5rem;
+        padding: 7rem 1.5rem 0 1.5rem;
     }
     
 }
