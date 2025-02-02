@@ -16,7 +16,6 @@
 }
 
 body{
-    height: 500vh;
     position: relative;
     background-color: var(--white);
 }

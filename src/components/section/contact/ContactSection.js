@@ -40,12 +40,12 @@ export default function ContactSection() {
   return (
     <section className={Styles.contactSection}>
       <div>
-        <h1>Get in Touch</h1>
+        <h2>Get in Touch</h2>
         <p>Reach out and let’s build something great!</p>
       </div>
       <div className={Styles.contact}>
         <div className={Styles.contactInfo}>
-          <h2>Contact Information</h2>
+          <h3>Contact Information</h3>
           <p>Explore the ways to connect with me,</p>
           <h4>Address</h4>
           <p>Purworejo, Central Java, Indonesia</p>
