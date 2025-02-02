@@ -66,10 +66,15 @@
 
 .contactForm div input:focus,.contactForm div textarea:focus {
     outline: none;
+    font-size: 1em;
 }
 
 .contactForm button{
     margin-top: 2rem;
+}
+
+.contactForm a{
+    max-height: 0;
 }
 
 @media screen and (min-width:786px) and (max-width:1200px){
@@ -84,6 +89,15 @@
 
     .contactForm{
         padding: 2rem;
+    }
+
+    .contactForm div input:focus,.contactForm div textarea:focus {
+        outline: none;
+        font-size: 0.8em;
+    }
+
+    .contactForm div input,.contactForm div textarea{
+        font-size: 0.9em;
     }
 }
 
@@ -110,6 +124,15 @@
     }
 
     .contactForm{
-        padding: 1.5rem;
+        padding: 0 1.5rem 0 1.5rem;
+    }
+
+    .contactForm div input:focus,.contactForm div textarea:focus {
+        outline: none;
+        font-size: 0.8em;
+    }
+
+    .contactForm div input,.contactForm div textarea{
+        font-size: 0.8em;
     }
 }

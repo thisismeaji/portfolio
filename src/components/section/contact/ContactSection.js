@@ -111,8 +111,9 @@ export default function ContactSection() {
                 required
               ></textarea>
             </div>
-
-            <BodyButton text="Submit" link="/submit" type="submit" />
+            <div>
+              <BodyButton text="Submit" link="/submit"/>
+            </div>
           </form>
         </div>
       </div>
