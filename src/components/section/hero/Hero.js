@@ -7,9 +7,9 @@ export default function Hero() {
   return (
     <section className={Styles.hero}>
         <div className={Styles.heroText}>
-          <h2>Frontend Developer</h2>
+          <h2>Web Developer</h2>
           <h1>Ajisaka Kamandanu</h1>
-          <p>Hi, I'm Aji, a Frontend Developer focused on creating responsive, intuitive, and user-friendly web interfaces.</p>
+          <p>With over 2 years of experience in web development, I am ready to help you launch your first portfolio website.</p>
           <HeroButton text="My Portfolio" link="/portfolio"/>
         </div>
         <div className={Styles.heroImage}>

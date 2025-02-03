@@ -53,19 +53,19 @@
 }
 
 .skills .bar:nth-of-type(1) span::before{
-    width: 90%;
+    width: 70%;
 }
 
 .skills .bar:nth-of-type(2) span::before{
-    width: 85%;
-}
-
-.skills .bar:nth-of-type(3) span::before{
     width: 65%;
 }
 
+.skills .bar:nth-of-type(3) span::before{
+    width: 70%;
+}
+
 .skills .bar:nth-of-type(4) span::before{
-    width: 50%;
+    width: 80%;
 }
 
 .bar span{
@@ -74,6 +74,10 @@
 
 .bar p:nth-of-type(2){
     text-align: right;
+}
+
+.hobbies{
+    margin-top: 7rem;
 }
 
 

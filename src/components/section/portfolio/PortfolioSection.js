@@ -9,7 +9,7 @@ export default function PortfolioSection() {
       <section className={Styles.portfolio}>
         <div className={Styles.mainPortfolio}>
           <h2>My Portfolio</h2>
-          <p>A collection of projects showcasing my skills and dedication in frontend development.</p>
+          <p>In this section, you will find various portfolio website projects I have created. Each project reflects my approach to developing responsive, aesthetic, and functional websites, with a focus on the needs and vision of the client.</p>
         </div>
         <div className={Styles.listProject}>
           <Projects/>

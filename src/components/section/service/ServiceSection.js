@@ -7,7 +7,7 @@ export default function ServiceSection() {
     <section className={Styles.serviceSection}>
       <div className={Styles.section}>
         <div className={Styles.serviceText}>
-            <h2>Need a Portfolio Website?</h2>
+            <h2>Do You Need a Website Portfolio?</h2>
             <p>If you're ready to create a portfolio that truly reflects your skills and passion, I'm here to help. I offer custom website design and development tailored to your professional needs.</p>
             <h3>Services I Offer:</h3>
             <ul>
@@ -19,7 +19,7 @@ export default function ServiceSection() {
         </div>
         <div className={Styles.serviceCTA}>
             <h1>It’s Time to Build Your Standout Portfolio!</h1>
-            <p>Click below to discuss your ideas and get started on building an amazing online portfolio!</p>
+            <p>Click below to share your ideas and get started on creating an amazing online portfolio with me.</p>
             <BodyButton text="Let’s Talk" link="/contact"/>
         </div>
       </div>
