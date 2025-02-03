@@ -1,8 +1,8 @@
 const ProjectsData = [
     {
       id: 1,
-      image: '/assets/gambar1.png',
-      title: 'Web Designer',
+      image: '/assets/ellen-downing.png',
+      title: 'Ellen Downing',
       description: 'Designing websites with a focus on aesthetics and user experience, creating visually appealing and responsive layouts.',
       link: '/web-designer'
     },
