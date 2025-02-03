@@ -2,9 +2,9 @@ const ProjectsData = [
     {
       id: 1,
       image: '/assets/ellen-downing.png',
-      title: 'Ellen Downing',
-      description: 'Designing websites with a focus on aesthetics and user experience, creating visually appealing and responsive layouts.',
-      link: '/web-designer'
+      title: 'Ellen Downing - Visual artist',
+      description: 'Ellen Downing is a visual artist whose works are showcased on this one-page portfolio website, designed with the latest technology to provide a modern and efficient browsing experience.',
+      link: 'https://ellen-downing.vercel.app/'
     },
     {
       id: 2,

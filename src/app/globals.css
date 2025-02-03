@@ -64,6 +64,7 @@ a{
     text-decoration: none;
     max-width:fit-content;
     max-height: fit-content;
+    font-weight: 400;
 }
 
 li{
