@@ -1,0 +1,31 @@
+.introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+}
+
+.introduction h1{
+    text-align: center;
+    max-width: 900px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.introduction p{
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width:786px) and (max-width:1200px){
+    .introduction h1{
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width:786px){
+    .introduction h1{
+        max-width: 450px;
+    }
+
+}

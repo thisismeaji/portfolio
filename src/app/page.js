@@ -4,6 +4,7 @@ import Head from 'next/head';
 import PortfolioSection from '@/components/section/portfolio/PortfolioSection';
 import WorkSection from '@/components/section/work/WorkSection';
 import WhySection from '@/components/section/why/WhySection';
+import IntroductionSection from '@/components/section/introduction/IntroductionSection';
 
 export const metadata = {
   title: 'Ajisaka Kamandanu',
@@ -82,6 +83,7 @@ export default function Home() {
       <Hero />
       <PortfolioSection/>
       <WhySection/>
+      <IntroductionSection/>
       <WorkSection/>
     </>
   );
