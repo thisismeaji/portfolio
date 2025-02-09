@@ -19,12 +19,14 @@ export default function Navigation() {
     return (
         <nav className={Styles.nav}>
             <div className={Styles.logo}>
-                <Image
-                    src="/assets/images/logo-ajisakakamandanu.png"
-                    alt="Logo Ajisaka Kamandanu"
-                    width={1000}
-                    height={1000}
-                />
+                <Link href="/">
+                    <Image
+                        src="/assets/images/logo-ajisakakamandanu.png"
+                        alt="Logo Ajisaka Kamandanu"
+                        width={1000}
+                        height={1000}
+                    />
+                </Link>
             </div>
             <div className={`${Styles.listNav} ${menuActive ? Styles.active : ""}`}>
                 <ul>
@@ -42,10 +44,12 @@ export default function Navigation() {
                     </Link>
                 </ul>
             </div>
-            <div className={Styles.status}>
-                <span></span>
-                <p>Available for projects</p>
-            </div>
+            <Link href="/contact">
+                <div className={Styles.status}>
+                    <span></span>
+                    <p>Available for projects</p>
+                </div>
+            </Link>
             <div className={Styles.menu} onClick={toggleMenu}>
                 <span></span>
                 <span></span>

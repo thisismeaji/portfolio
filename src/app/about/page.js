@@ -1,7 +1,4 @@
 import React from 'react';
-import AboutSection from '@/components/section/about/AboutSection';
-import SkillsSection from '@/components/section/skills/SkillsSection';
-import ContactSection from '@/components/section/contact/ContactSection';
 
 export const metadata = {
   title: 'About',
@@ -51,8 +48,6 @@ export default function About() {
           })
         }}
       />
-      <AboutSection />
-      <SkillsSection />
     </>
   );
 }

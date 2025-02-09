@@ -1,4 +1,3 @@
-import ContactSection from '@/components/section/contact/ContactSection';
 import React from 'react';
 
 export const metadata = {
@@ -48,7 +47,6 @@ export default function Contact() {
           })
         }}
       />
-      <ContactSection/>
     </>
   );
 }

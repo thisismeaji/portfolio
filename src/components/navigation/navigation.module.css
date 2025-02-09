@@ -14,6 +14,8 @@
 
 .logo{
     display: flex;
+    width: 100%;
+    max-width: 10rem;
 }
 
 .logo img{
@@ -32,6 +34,7 @@
     justify-content: center;
     align-items: center;
     gap: 7px;
+    cursor: pointer;
 }
 
 .status > span{
@@ -102,6 +105,11 @@
 
 
 @media screen and (min-width:786px) and (max-width:1200px){
+
+    .logo{
+        max-width: 8rem;
+    }
+
     .status > p{
         font-size: 0.7em;
     }
@@ -116,6 +124,10 @@
     .nav{
         margin: 0.5rem 1rem;
         padding: 0.5rem;
+    }
+
+    .logo{
+        max-width: fit-content;
     }
 
     .listNav{

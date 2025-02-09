@@ -1,0 +1,24 @@
+.button{
+    padding: 0.7rem 2rem;
+    border: none;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: 'Poppins';
+}
+
+@media screen and (min-width:786px) and (max-width:1200px){
+    .button{
+        padding: 0.6rem 1.7rem;
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width:786px){
+    .button{
+        padding: 0.5rem 1.5rem;
+        font-size: 0.8em;
+    }
+}

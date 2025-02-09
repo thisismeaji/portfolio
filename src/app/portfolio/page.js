@@ -1,4 +1,3 @@
-import PortfolioSection from '@/components/section/portfolio/PortfolioSection';
 import React from 'react';
 
 export const metadata = {
@@ -49,7 +48,6 @@ export default function Projects() {
           })
         }}
       />
-      <PortfolioSection/>
     </>
   
   );

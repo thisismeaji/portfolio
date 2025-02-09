@@ -1,11 +1,6 @@
-import ContactSection from '@/components/section/contact/ContactSection';
-import Hero from '@/components/section/hero/Hero';
-import Introduction from '@/components/section/introduction/Introduction';
-import PortfolioSection from '@/components/section/portfolio/PortfolioSection';
-import Quotes from '@/components/section/quotes/Quotes';
-import ServiceSection from '@/components/section/service/ServiceSection';
-import Head from 'next/head';
+import Hero from '@/components/section/hero/HeroSection';
 import React from 'react';
+import Head from 'next/head';
 
 export const metadata = {
   title: 'Ajisaka Kamandanu',
@@ -82,11 +77,6 @@ export default function Home() {
       </Head>
 
       <Hero />
-      <Introduction />
-      <PortfolioSection />
-      <ServiceSection/>
-      <Quotes />
-      <ContactSection />
     </>
   );
 }

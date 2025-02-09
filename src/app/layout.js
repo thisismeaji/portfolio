@@ -1,6 +1,7 @@
 import Navigation from "@/components/navigation/Navigation";
 import "./globals.css";
 import { Poppins } from 'next/font/google';
+import { Play } from "next/font/google";
 import Footer from "@/components/footer/Footer";
 
 const poppins = Poppins({
@@ -8,6 +9,9 @@ const poppins = Poppins({
   subsets: ['latin'],
   variable: '--font-poppins',
 });
+
+const play = Play({ subsets: ["latin"], weight: ["400", "700"] });
+
 
 export default function RootLayout({ children }) {
   return (
