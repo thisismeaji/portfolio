@@ -5,6 +5,7 @@ import PortfolioSection from '@/components/section/portfolio/PortfolioSection';
 import WorkSection from '@/components/section/work/WorkSection';
 import WhySection from '@/components/section/why/WhySection';
 import IntroductionSection from '@/components/section/introduction/IntroductionSection';
+import PricingSection from '@/components/section/pricing/PricingSection';
 
 export const metadata = {
   title: 'Ajisaka Kamandanu',
@@ -85,6 +86,7 @@ export default function Home() {
       <WhySection/>
       <IntroductionSection/>
       <WorkSection/>
+      <PricingSection/>
     </>
   );
 }

@@ -1,0 +1,85 @@
+.pricing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+}
+
+.pricing h1{
+
+}
+
+.pricing p{
+    max-width: 650px;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.listPricing{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    padding: 1rem;
+    border: 1px solid var(--grey);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 25rem;
+}
+
+.card h4{
+    padding: 0.5rem 2rem 0 2rem;
+}
+
+.listPricing .card:nth-of-type(1){
+    background-color: var(--black);
+}
+
+.listPricing .card:nth-of-type(2){
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;    
+}
+
+.listPricing .card:nth-of-type(1) h4{
+    color: var(--white);
+}
+
+.card div{
+    padding: 2rem;
+    background-color: var(--white);
+    border-radius: 5px;
+}
+
+.listPricing .card:nth-of-type(2) div{
+    border: 1px solid var(--grey);  
+    height: 100%;
+}
+
+.card ul{
+    list-style:circle;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.listPricing .card:nth-of-type(1) button{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.card button{
+    width: 100%;
+    padding: 1rem;
+}
+
+@media screen and (max-width:786px){
+    .card{
+        width: 100%;
+        max-width: 30rem;
+    }
+}

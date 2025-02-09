@@ -15,6 +15,7 @@
 
 .introduction p{
     margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 @media screen and (min-width:786px) and (max-width:1200px){
