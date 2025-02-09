@@ -95,7 +95,7 @@
     z-index: 0;
     background: rgba(0, 0, 0, 0.4); /* Transparan hitam */
     backdrop-filter: blur(5px); /* Efek blur */
-    transition: left 0.3s ease-in-out;
+    transition: left 0.2s ease-in-out;
 }
 
 .overlayActive{

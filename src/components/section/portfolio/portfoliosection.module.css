@@ -1,0 +1,30 @@
+.portfolio{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.portfolio img{
+    max-width: 400px;
+    max-height: 250px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.portfolio div{
+    transform: scale(1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.portfolio div:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:786px){
+    
+}
+
