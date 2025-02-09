@@ -1,0 +1,56 @@
+.why{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    flex-direction: column;
+}
+
+.why > p{
+    margin-top: 1rem;
+}
+
+.why img{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.listWhy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.card{
+    padding: 3rem;
+    border: 1px solid var(--grey);
+    border-radius: 10px;
+    max-width: 500px;
+    height: 250px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 1px;
+    cursor: pointer;
+}
+
+.tittle{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width:786px) and (max-width:1200px){
+    .card{
+        height: 200px;
+        padding: 2.5rem;
+    }
+}
+
+@media screen and (max-width:786px){
+    .card{
+        height: 200px;
+        padding: 2rem;
+    }
+}

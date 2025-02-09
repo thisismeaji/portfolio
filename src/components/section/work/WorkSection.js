@@ -7,62 +7,62 @@ export default function WorkSection() {
     <section>
       <div className={Styles.work}>
         <h1>How I Work</h1>
-        <p>I could give you a long list of my perks, but here’s the bottom line</p>
+        <p>I usually follow these four workflows to ensure the best results.</p>
         <div className={Styles.listWork}>
           <div className={Styles.card}>
             <div className={Styles.tittle}>
               <Image 
-                src="/assets/icons/uc-design.png"
-                alt="User-centric design"
+                src="/assets/icons/userflow.png"
+                alt="User Flow"
                 width={512}
                 height={512}
               />
-              <h4>User-centric design</h4>
+              <h4>User Flow</h4>
             </div>
             <div className={Styles.description}>
-              <p>I am committed to creating intuitive and seamless user experiences for all my projects.</p>
+              <p>Mapping out user interactions to create an intuitive and seamless experience, ensuring smooth navigation through the website.</p>
             </div>
           </div>
           <div className={Styles.card}>
             <div className={Styles.tittle}>
               <Image 
-                src="/assets/icons/responsive-design.png"
-                alt="Responsive Design"
+                src="/assets/icons/wireframing.png"
+                alt="Wireframing"
                 width={512}
                 height={512}
               />
-              <h4>Responsive Design</h4>
+              <h4>Wireframing</h4>
             </div>
             <div className={Styles.description}>
-              <p>I ensure that every website looks great and functions perfectly on all devices, from desktops to smartphones.</p>
+              <p>Creating a basic layout structure to serve as a visual guide for the design, outlining key elements and their placement.</p>
             </div>
           </div>
           <div className={Styles.card}>
             <div className={Styles.tittle}>
               <Image 
-                src="/assets/icons/free-maintenance.png"
-                alt="1-year free maintenance"
+                src="/assets/icons/design.png"
+                alt="Designe"
                 width={512}
                 height={512}
               />
-              <h4>1-year free maintenance</h4>
+              <h4>Design</h4>
             </div>
             <div className={Styles.description}>
-              <p>Every website I build comes with a 1-year free maintenance guarantee to keep your site running smoothly.</p>
+              <p>Developing visually appealing and functional designs that enhance user experience, focusing on aesthetics, usability, and branding.</p>
             </div>
           </div>
           <div className={Styles.card}>
             <div className={Styles.tittle}>
               <Image 
-                src="/assets/icons/seo.png"
-                alt="SEO-Friendly Structure"
+                src="/assets/icons/development.png"
+                alt="Development"
                 width={512}
                 height={512}
               />
-              <h4>SEO-Friendly Structure</h4>
+              <h4>Development</h4>
             </div>
             <div className={Styles.description}>
-              <p>I build websites with clean architecture optimized for search engines, helping your site rank better organically.</p>
+              <p>Transforming the design into a fully functional website with optimal performance, ensuring cross-device compatibility and fast load times.</p>
             </div>
           </div>
         </div>
