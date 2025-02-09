@@ -1,18 +1,15 @@
-.nav {
+.nav{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
+    align-items: center;
     width: 100%;
-    max-width: 1250px;
-    margin: 0.5rem 1rem;
+    max-width: 1200px;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
     background-color: var(--white);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.navList{
-    position: relative;
+    border: 1px solid var(--grey);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin: 0.5rem 2rem;
 }
 
 .logo{
@@ -20,100 +17,140 @@
 }
 
 .logo img{
-    max-width: 35px;
-    max-height: 35px;
+    max-width: 25px;
+    max-height: 25px;
 }
 
-.navDekstop{
+.listNav ul{
     display: flex;
     gap: 1.5rem;
     list-style: none;
-    color: var(--black);
 }
 
-
-.navMobile{
-    display: none;
-    list-style: none;
-    position: fixed;
-    left: -100%;
-    top: 0;
-    bottom: 0;
-    background-color: var(--primary);
-    width: 85%;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    padding: 2rem;
-    flex-direction: column;
-    gap: 1rem;
-    transition: all 0.3s ease;
-    z-index: 1000;
-}
-
-.navActive{
-    left: 0;
-    transition: all 0.3s ease;
-    color: var(--white);
-}
-
-.overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.4); /* Transparan hitam */
-    backdrop-filter: blur(5px); /* Efek blur */
-    z-index: 10; /* Letakkan di belakang menu */
-}
-
-.closeButton{
-    width: 20px;
-    height: 20px;
-    font-size: 2em;
-    font-weight: 200;
-    position: absolute;
-    right: 2rem;
-    top: 2rem;
-    cursor: pointer;
+.status{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 7px;
+}
+
+.status > span{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: var(--green);
+    border-radius: 100;
+    animation: blink 1.5s infinite alternate;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+        box-shadow: 0 0 5px var(--green);
+    }
+    100% {
+        opacity: 0.3;
+        box-shadow: 0 0 0px var(--green);
+    }
+}
+
+.status > p{
+    font-size: 0.8em;
 }
 
 .menu{
     display: none;
     flex-direction: column;
-    align-items: flex-end;
     gap: 7px;
+    justify-content: center;
+    align-items: flex-end;
 }
 
-.menu span{
+.menu > span {
     display: inline-block;
-    width: 25px;
+    width: 1.5rem;
     height: 1.5px;
-    background-color: var(--primary);
+    background-color: var(--black);
 }
 
-.menu span:nth-of-type(1), .menu span:nth-of-type(3){
-    width: 20px;
+.menu > span:nth-of-type(1){
+    width: 1rem;
 }
 
-@media screen and (max-width:786px) {
-    .navDekstop{
-        display: none;
+.menu > span:nth-of-type(3){
+    width: 1.2rem;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: -100vw;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+    background: rgba(0, 0, 0, 0.4); /* Transparan hitam */
+    backdrop-filter: blur(5px); /* Efek blur */
+    transition: left 0.3s ease-in-out;
+}
+
+.overlayActive{
+    left: 0;
+}
+
+
+
+@media screen and (min-width:786px) and (max-width:1200px){
+    .status > p{
+        font-size: 0.7em;
     }
 
-    .navMobile{
-        display: flex;
+    .status > span{
+        width: 8px;
+        height: 8px;
+    }
+}
+
+@media screen and (max-width:786px){
+    .nav{
+        margin: 0.5rem 1.5rem;
+    }
+
+    .listNav{
+        position: absolute;
+        top: 0;
+        left: -80vw;
+        width: 80vw;
+        height: 100vh;
+        background-color: var(--white);
+        border: 1px solid var(--grey);
+        padding: 2rem;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        z-index: 1;
+        transition: left 0.3s ease-in-out;
+        transition-delay: 0.2s;
+    }
+
+    .listNav ul{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .active{
+        left: 0;
+    }
+
+    .status > span{
+        width: 5px;
+        height: 5px;
+    }
+
+    .status > p{
+        font-size: 0.6em;
     }
 
     .menu{
         display: flex;
-    }
-
-    .logo img{
-        max-width: 30px;
-        max-height: 30px;
     }
 }
