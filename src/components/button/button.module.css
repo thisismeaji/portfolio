@@ -5,20 +5,28 @@
     color: var(--white);
     border-radius: 5px;
     cursor: pointer;
-    font-size: 1em;
+    font-size: 14px;
     font-family: 'Poppins';
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-weight: 500;
+    transform:scale(1);
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover{
+    transform:scale(1.05);
 }
 
 @media screen and (min-width:786px) and (max-width:1200px){
     .button{
         padding: 0.6rem 1.7rem;
-        font-size: 0.9em;
+        font-size: 12px;
     }
 }
 
 @media screen and (max-width:786px){
     .button{
         padding: 0.5rem 1.5rem;
-        font-size: 0.8em;
+        font-size: 10px;
     }
 }
