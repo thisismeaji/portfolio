@@ -87,11 +87,11 @@
     .card h4{
         font-size: 0.9em;
         line-height: 2;
-        height: 4rem;
+        height: 5rem;
     }
 
     .card{
-        max-height: 5rem;
+        max-height: 6rem;
     }
     
 }
