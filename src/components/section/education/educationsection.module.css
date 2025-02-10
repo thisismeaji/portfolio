@@ -1,0 +1,36 @@
+.education{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 1200px;
+    text-align: right;
+    gap: 1rem;
+    position: relative;
+    z-index: 10;
+    
+}
+
+.education p, .education h1{
+    max-width: 800px;
+}
+
+
+@media screen and (min-width:786px) and (max-width:1200px){
+
+    .education{
+        gap: 0.7rem;
+    }
+}
+
+
+@media screen and (max-width:786px){
+
+    .education{
+        align-items: flex-start;
+        text-align: left;
+        gap: 0.5rem;
+    }
+
+}

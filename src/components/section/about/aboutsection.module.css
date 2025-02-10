@@ -1,9 +1,10 @@
 .about{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 4rem;
     align-items: center;
+    width: 100%;
     max-width: 1200px;
-    gap: 5rem;
     position: relative;
     z-index: 10;
 }
@@ -15,23 +16,23 @@
     max-width: 383;
     max-height: 538;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .about div:nth-of-type(2){
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 750px;
-    gap: 0.5rem;
+    max-width: 800px;
+    gap: 1rem;
 }
 
 .about > div > h2{
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 
 .about button{
     max-width: fit-content;
-    margin-top: 2rem;
 }
 
 @media screen and (min-width: 786px) and (max-width: 1200px){
@@ -39,7 +40,8 @@
         gap: 2rem;
     }
     .about div:nth-of-type(2){
-        max-width:450px;
+        max-width:650px;
+        gap: 0.7rem;
     }
 
     .about img{
@@ -47,17 +49,13 @@
         height: none;
     }
 
-    .about > div > h2{
-        margin-bottom: 0.5rem;
-    }
-    
-    .about button{
-        max-width: fit-content;
-        margin-top: 1rem;
-    }
 }
 
 @media screen and (max-width: 786px){
+    .section{
+        padding-top: 2rem;
+    }
+
     .about{
         flex-direction: column;
         gap: 2rem;
@@ -68,12 +66,8 @@
         max-height: none;
     }
 
-    .about > div > h2{
-        margin-bottom: 0;
+    .about div:nth-of-type(2){
+        gap: 0.5rem;
     }
 
-    .about button{
-        max-width: fit-content;
-        margin-top: 0.5rem;
-    }
 }

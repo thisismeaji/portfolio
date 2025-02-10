@@ -1,0 +1,19 @@
+.ctaSection{
+    padding-bottom: 0;
+}
+
+.ctaAbout{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+    gap: 1rem;
+    width: 100%;
+    max-width: 1200px;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.ctaAbout h1, .ctaAbout p{
+    max-width: 800px;
+}
