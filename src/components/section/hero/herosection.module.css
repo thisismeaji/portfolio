@@ -8,6 +8,7 @@
     text-align: center;
     position: relative;
     z-index: 10;
+    padding: 5rem;
 }
 
 
@@ -22,6 +23,10 @@
 }
 
 @media screen and (min-width:786px) and (max-width:1200px){
+
+    .hero{
+        padding: 3rem;
+    }
     .hero h1{
         max-width: 600px;
     }
@@ -32,6 +37,10 @@
 }
 
 @media screen and (max-width:786px){
+
+    .hero{
+        padding: 0;
+    }
     .hero h1{
         max-width: 450px;
     }
