@@ -4,6 +4,8 @@
     justify-content: center;
     align-items: center;
     max-width: 1200px;
+    position: relative;
+    z-index: 10;
 }
 
 .introduction h1{
