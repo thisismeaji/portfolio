@@ -7,79 +7,80 @@ const faqs = [
   {
     question: "What platform is the website built on?",
     answer:
-      "The websites I create are built using Next.js, a React-based framework that is fast, lightweight, and optimized for performance and SEO.",
+      "I build websites using Next.js, a React-based framework known for its speed, lightweight structure, and optimization for performance and SEO.",
   },
   {
     question: "Is the website built using WordPress?",
     answer:
-      "No, I do not use WordPress. I build custom websites with Next.js, which ensures better speed, security, and flexibility compared to WordPress-based websites.",
+      "No, I don't use WordPress. I create custom websites with Next.js, which offers better speed, security, and flexibility compared to WordPress-based websites.",
   },
   {
-    question: "What features are available?",
+    question: "What features are included?",
     answer:
-      "My portfolio websites include responsive design, a professional layout that aligns with your personal branding, SEO optimization, interactive animations, and social media integration. Additionally, dynamic pages such as projects, blogs, or testimonials can be added. If you need additional features, we can discuss them further.",
+      "My portfolio websites come with a responsive design, a professional layout that aligns with your personal brand, SEO optimization, interactive animations, and social media integration. You can also add dynamic pages such as projects, blogs, or testimonials. If you need additional features, we can discuss them further.",
   },
   {
     question: "Does the package include hosting and a domain?",
     answer:
-      "Yes, hosting and domain are included in the price. Hosting is provided through Vercel, which offers high-performance and reliable hosting for Next.js websites. The domain is purchased from GoDaddy or a domain provider in your country, ensuring you get a domain that suits your needs without additional hassle.",
+      "Yes, hosting and a domain are included in the package. Hosting is provided through Vercel, ensuring high performance and reliability for Next.js websites. The domain is purchased from GoDaddy or a provider in your country to suit your needs without extra hassle.",
   },
   {
-    question: "Will my website be found on search engines?",
+    question: "Will my website be searchable on Google?",
     answer:
-      "Yes, I apply on-page SEO techniques, such as proper URL structuring, meta tags, and speed optimization, to help your website rank better on search engines like Google.",
+      "Yes, I apply on-page SEO techniques such as proper URL structuring, meta tags, and speed optimization to improve your website's ranking on search engines like Google.",
   },
   {
-    question: "Can I request a custom design based on my preferences?",
+    question: "Can I request a custom design?",
     answer:
-      "Absolutely! The website design will be tailored to your preferences. You can provide references for your desired look, or I can recommend the best layout for your portfolio.",
+      "Absolutely! The website design will be tailored to your preferences. You can share references, or I can recommend the best layout for your portfolio.",
   },
   {
-    question: "How many projects can be displayed in the portfolio?",
+    question: "How many projects can I showcase in my portfolio?",
     answer:
-      "There is no limit to the number of projects you can display, but I recommend showcasing 5-10 of your best projects to keep the website engaging and lightweight.",
+      "There's no limit, but I recommend displaying 5-10 of your best projects to keep the website engaging and fast.",
   },
   {
     question: "Can I request additional revisions beyond the initial agreement?",
     answer:
-      "I offer revisions as per our initial agreement. If you need additional revisions beyond that, they can be done at an extra cost.",
+      "I offer revisions as per our initial agreement. If you need more, additional revisions can be done for an extra cost.",
   },
   {
     question: "What does the free 1-year maintenance include?",
     answer:
-      "The free maintenance covers minor bug fixes, small content updates such as text or image changes, and website performance monitoring. However, major design changes or new feature additions are not included in the free maintenance.",
+      "The free maintenance covers minor bug fixes, small content updates like text or image changes, and performance monitoring. Major design changes or new feature additions are not included.",
   },
   {
-    question: "What if I want to add new features after the website is completed?",
+    question: "Can I add new features after the website is completed?",
     answer:
-      "You can request additional features after the website is completed. The cost will be adjusted based on the complexity of the new features.",
+      "Yes, you can request new features after the website is completed. The cost will depend on the complexity of the request.",
   },
   {
-    question: "What happens if I am not satisfied with the final result?",
+    question: "What if I'm not satisfied with the final result?",
     answer:
-      "I ensure that the final product meets your needs by providing revisions based on our initial agreement. If there are any major concerns, we can discuss and find the best solution to achieve your desired outcome.",
+      "I ensure the final product meets your expectations by offering revisions based on our agreement. If you have concerns, we can discuss solutions to achieve your desired outcome.",
   },
   {
     question: "How long does it take to complete the website?",
     answer:
-      "The completion time depends on the complexity of the website. For a one-page portfolio, the project takes only 3 days, while a multi-page portfolio takes approximately one week. If you have a specific deadline, we can discuss it further.",
+      "The timeline depends on the complexity of the website. A one-page portfolio takes about 3 days, while a multi-page portfolio takes around a week. If you have a specific deadline, we can discuss it.",
   },
   {
-    question: "Will I have full access to the website once it is completed?",
+    question: "Will I have full access to my website after it's completed?",
     answer:
-      "Yes, once the website is completed, you will have full access to the source code and hosting account (on Vercel), allowing you to manage it on your own if needed.",
+      "Yes, once the website is completed, you'll have full access to the source code and hosting account (on Vercel), allowing you to manage it as needed.",
   },
   {
     question: "How can I update and manage content on my website?",
     answer:
-      "Since I build static websites without a backend, content updates can be done by editing the files on GitHub or by reaching out to me for assistance. If you need a more flexible content management system, I can integrate a CMS such as Sanity or Strapi for an additional cost.",
+      "Since I build static websites without a backend, updates can be done by editing files on GitHub or contacting me for assistance. If you need an easier content management system, I can integrate a CMS like Sanity or Strapi for an additional cost.",
   },
   {
     question: "Are there any additional costs after the website is completed?",
     answer:
-      "There are no extra costs unless you request significant changes or new features. Any additional services will be priced based on the complexity of the request.",
+      "No extra costs unless you request significant changes or new features. Any additional services will be priced based on the complexity of your request.",
   },
 ];
+
 
 export default function FaqSection() {
   const [activeIndex, setActiveIndex] = useState(null);
