@@ -24,7 +24,7 @@ export default function PricingSection() {
                             <li>Form contact to Email / WhatsApp etc.</li>
                             <li>Free Domain .Com</li>
                             <li>Free Hosting / Server on Vercel</li>
-                            <li>Ready in 1 week</li>
+                            <li>Ready in 3 Days</li>
                             <li>Max 3 revisions included</li>
                         </ul>
                     </div>
@@ -37,6 +37,7 @@ export default function PricingSection() {
                         <ul>
                             <li>Perfect for professionals with many projects.</li>
                             <li>Every benefit of One Page Portfolio</li>
+                            <li>Up to 4 Page</li>
                             <li>Advanced SEO</li>
                             <li>Integration with Google Analytics and Google Search Console</li>
                             <li>Ready in 1 week</li>
