@@ -17,3 +17,10 @@
 .ctaAbout h1, .ctaAbout p{
     max-width: 800px;
 }
+
+@media screen and (max-width:786px) {
+    .ctaAbout{
+        align-items: flex-start;
+        text-align: left;
+    }
+}
