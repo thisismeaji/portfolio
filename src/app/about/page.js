@@ -1,3 +1,5 @@
+import ParticlesBackground from '@/components/background/ParticlesBackground';
+import AboutSection from '@/components/section/about/AboutSection';
 import React from 'react';
 
 export const metadata = {
@@ -48,6 +50,8 @@ export default function About() {
           })
         }}
       />
+      <ParticlesBackground/>
+      <AboutSection/>
     </>
   );
 }
