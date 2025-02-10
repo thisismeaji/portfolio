@@ -320,7 +320,7 @@ const ParticlesBackground = () => {
         "mode": "delete",
         "value": 0
       },
-      "value": 100
+      "value": 50
     },
     "opacity": {
       "value": {
