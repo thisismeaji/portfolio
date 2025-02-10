@@ -90,7 +90,7 @@ export default function FaqSection() {
   };
 
   return (
-    <section>
+    <section className={Styles.section}>
       <div className={Styles.faq}>
         <h1>Faq</h1>
         <p>Find answers to the most common questions. If you need more information, don't hesitate to reach out!</p>

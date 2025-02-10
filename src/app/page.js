@@ -8,6 +8,8 @@ import IntroductionSection from '@/components/section/introduction/IntroductionS
 import PricingSection from '@/components/section/pricing/PricingSection';
 import FaqSection from '@/components/section/faq/FaqSection';
 import ContactSection from '@/components/section/contact/ContactSection';
+import ParticlesBackground from '@/components/background/ParticlesBackground';
+
 
 export const metadata = {
   title: 'Ajisaka Kamandanu',
@@ -82,7 +84,7 @@ export default function Home() {
         <meta property="og:image" content="https://thisismeaji.com/images/profile.jpg" />
         <meta property="og:url" content="https://thisismeaji.com/" />
       </Head>
-
+      <ParticlesBackground />
       <Hero />
       <PortfolioSection/>
       <WhySection/>
