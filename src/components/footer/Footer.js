@@ -54,7 +54,7 @@ export default function Footer() {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/linkedin">
+                    <Link href="https://www.linkedin.com/in/ajisaka-kamandanu-0870a6349/">
                         <Image
                             src="/assets/icons/linkedin.png"
                             alt="linkedin Aji"
