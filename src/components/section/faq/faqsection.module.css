@@ -1,4 +1,4 @@
-.faq{
+.faq {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,43 +7,47 @@
     max-width: 1200px;
 }
 
-.faq > p{
+.faq > p {
     max-width: 650px;
     text-align: center;
     margin-top: 1rem;
 }
 
-.faq > div{
+.faq > div {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     margin-top: 3rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
     background-color: var(--black);
     color: var(--white);
-    padding: 0.5rem 1.5rem 1rem 1.5rem;
+    padding: 0.5rem 1rem;
     cursor: pointer;
     width: 100%;
     max-width: 900px;
-    max-height: 4rem;
     overflow: hidden;
-    transition: max-height 0.3s ease-in-out;
+    transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
     border-radius: 10px;
 }
 
 .card > h4 {
     font-size: 1.1em;
     font-weight: 500;
-    height: 3rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
+    height: 100%;
+    max-height: 5rem;
+    padding: 0.5rem 0;
 }
 
-.card h4::after{
+.card h4::after {
     content: ">";
     display: inline-block;
     transform: rotate(90deg);
@@ -51,15 +55,19 @@
     transition: transform 0.3s ease-in-out;
 }
 
+/* Awalnya p tidak terlihat */
 .card p {
     opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-    margin-top: 0.5rem;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    max-height: 0;
+    overflow: hidden;
 }
 
-
+/* Saat aktif */
 .card.active {
     max-height: 30rem;
+    padding-bottom: 1rem;
 }
 
 .card.active h4::after {
@@ -68,32 +76,23 @@
 
 .card.active p {
     opacity: 1;
+    visibility: visible;
+    transition-delay: 0s; /* Agar langsung terlihat */
+    max-height: 25rem;
 }
 
-@media screen and (min-width:786px) and (max-width:1200px){
-    .card{
+@media screen and (min-width: 786px) and (max-width: 1200px) {
+    .card {
         max-width: 700px;
     }
 
-    .card h4{
+    .card h4 {
         font-size: 1em;
-        height: 3rem;
     }
 }
 
-
-@media screen and (max-width:786px){
-
-    .card h4{
+@media screen and (max-width: 786px){
+    .card h4 {
         font-size: 0.9em;
-        line-height: 2;
-        height: 5rem;
     }
-
-    .card{
-        max-height: 6rem;
-    }
-    
 }
-
-
