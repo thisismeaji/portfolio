@@ -7,6 +7,7 @@ import WhySection from '@/components/section/why/WhySection';
 import IntroductionSection from '@/components/section/introduction/IntroductionSection';
 import PricingSection from '@/components/section/pricing/PricingSection';
 import FaqSection from '@/components/section/faq/FaqSection';
+import ContactSection from '@/components/section/contact/ContactSection';
 
 export const metadata = {
   title: 'Ajisaka Kamandanu',
@@ -88,6 +89,7 @@ export default function Home() {
       <IntroductionSection/>
       <WorkSection/>
       <PricingSection/>
+      <ContactSection/>
       <FaqSection/>
     </>
   );

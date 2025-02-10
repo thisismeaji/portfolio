@@ -1,0 +1,42 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+}
+
+.contact p{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.contactForm{
+    width: 100%;
+    max-width: 900px;
+    margin-top: 3rem;
+    font-family: "Poppins";
+}
+
+.contactForm form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contactForm input, .contactForm textarea{
+    border: none;
+    padding: 1rem 0;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    font-family: "Poppins";
+    margin-bottom: 2rem;
+}
+
+.contactForm input:focus, .contactForm textarea:focus{
+    outline: none;
+}
+
+.contactForm button{
+    width: fit-content;
+}

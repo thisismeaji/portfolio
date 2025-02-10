@@ -101,7 +101,7 @@ export default function FaqSection() {
               className={`${Styles.card} ${activeIndex === index ? Styles.active : ""}`}
               onClick={() => toggleActive(index)}
             >
-              <h4>{faq.question}</h4>
+              <p>{faq.question}</p>
               <p>{faq.answer}</p>
             </div>
           ))}

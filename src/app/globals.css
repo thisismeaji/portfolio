@@ -57,7 +57,7 @@ h4{
     font-weight: 500;
 }
 
-p{
+p, label, input{
     font-size: 1em;
     font-weight: 400;
     line-height: 2;
@@ -106,7 +106,7 @@ li{
         font-size: 1em;
     }
 
-    p{
+    p, label, input{
         font-size: 0.9em;
     }
 
@@ -149,7 +149,7 @@ li{
         font-size: 0.9em;
     }
 
-    p{
+    p, label, input{
         font-size: 0.8em;
         line-height: 2;
     }
