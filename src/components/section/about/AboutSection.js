@@ -10,8 +10,8 @@ export default function AboutSection() {
         <div>
             <Image
                 src="/assets/images/profile.png"
-                width={1920}
-                height={1080}
+                width={383}
+                height={538}
                 alt="Foto Ajisaka Kamandanu"
             />
         </div>

@@ -18,8 +18,8 @@ export default function WorkData() {
               <Image 
                 src={`/assets/images/portfolio${item.id}.png`}
                 alt={`Portfolio ${item.id}`}
-                width={1920}
-                height={1080}
+                width={500}
+                height={300}
                 className={Styles.image}
               />
             </Link>
