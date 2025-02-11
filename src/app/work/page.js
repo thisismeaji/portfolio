@@ -5,7 +5,7 @@ import Button from '@/components/button/Button';
 import ParticlesBackground from '@/components/background/ParticlesBackground';
 
 export const metadata = {
-  title: 'Work',
+  title: 'Work - Ajisaka Kamandanu',
   description: 'This page showcases the best web projects I’ve worked on, reflecting my skills as a web developer in creating high-quality digital solutions.',
   alternates: {
     canonical: 'https://thisismeaji.com/work'

@@ -8,7 +8,7 @@ import Styles from "../page.module.css";
 import Button from '@/components/button/Button';
 
 export const metadata = {
-  title: 'About',
+  title: 'About - Ajisaka Kamandanu',
   description: "For me, coding is more than just writing lines of code. It's about solving problems, creating smooth experiences, and bringing ideas to life.",
   alternates: {
     canonical: 'https://thisismeaji.com/about'

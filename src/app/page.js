@@ -12,7 +12,7 @@ import ParticlesBackground from '@/components/background/ParticlesBackground';
 
 
 export const metadata = {
-  title: 'Ajisaka Kamandanu',
+  title: 'Ajisaka Kamandanu - A Developer Who Loves to Create',
   description: "Hi, I'm Aji, a Frontend Developer focused on creating responsive, intuitive, and user-friendly web interfaces.",
   alternates: {
     canonical: 'https://thisismeaji.com/'
@@ -30,7 +30,7 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "Website", 
             "url": "https://thisismeaji.com/",
-            "name": "Ajisaka Kamandanu - Frontend Developer",
+            "name": "Ajisaka Kamandanu - A Developer Who Loves to Create",
             "description": "Hi, I'm Aji, a Frontend Developer focused on creating responsive, intuitive, and user-friendly web interfaces."
           })
         }}
@@ -44,7 +44,7 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "Person",
             "name": "Ajisaka Kamandanu",
-            "jobTitle": "Frontend Developer",
+            "jobTitle": "Developer",
             "url": "https://thisismeaji.com/",
             "image": "https://thisismeaji.com/public/assets/profile.png",
             "sameAs": [
