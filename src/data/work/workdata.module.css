@@ -1,0 +1,44 @@
+.work{
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+    z-index: 10;
+    padding-bottom: 0;
+}
+
+.work img{
+    max-width: 400px;
+    max-height: 250px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.work div{
+    transform: scale(1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.work div:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (min-width:786px) and (max-width:1200px){
+    .work img{
+        max-width: 320px;
+        max-height: 180px;
+    }
+}
+
+@media screen and (max-width:786px){
+    .work img{
+        width: 100%;
+        height: 100%;
+        max-width: none;
+    }
+}
+

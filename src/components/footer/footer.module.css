@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10rem 2rem 1rem 2rem;
+    padding: 2rem;
 }
 
 .footer > div{
@@ -36,6 +36,10 @@
 }
 
 @media screen and (max-width:786px){
+
+    .footer{
+        padding: 1.5rem;
+    }
     .footer > div{
         flex-direction: column-reverse;
         gap: 1rem;

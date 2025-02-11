@@ -1,3 +1,4 @@
+import ContactSection from '@/components/section/contact/ContactSection';
 import React from 'react';
 
 export const metadata = {
@@ -27,7 +28,7 @@ export default function Contact() {
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "About",
+                "name": "Contact",
                 "item": "https://thisismeaji.com/contact"
               }
             ]
@@ -47,6 +48,7 @@ export default function Contact() {
           })
         }}
       />
+      <ContactSection/>
     </>
   );
 }

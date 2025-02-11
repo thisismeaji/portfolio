@@ -21,7 +21,7 @@ export default function AboutSection() {
             <h3>A Developer Who Loves to Create</h3>
             <p>For me, coding is more than just writing lines of code. It's about solving problems, creating smooth experiences, and bringing ideas to life. I'm always excited to learn, adapt, and push the boundaries of my frontend development skills.</p>
             <p>Take a look at some of the projects I’ve worked on and see how I bring ideas to life."</p>
-            <Button text="View Portfolio"/>
+            <Button text="View My Work" link="/work"/>
         </div>
       </div>
     </section>

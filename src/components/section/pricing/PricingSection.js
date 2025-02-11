@@ -28,7 +28,7 @@ export default function PricingSection() {
                             <li>Max 3 revisions included</li>
                         </ul>
                     </div>
-                    <Button text="Book" link="/"/>
+                    <Button text="Book" link="/contact"/>
                 </div>
                 <div className={Styles.card}>
                     <h4>Multiple Page Portfolio</h4>
@@ -44,7 +44,7 @@ export default function PricingSection() {
                             <li>Max 5 revisions included</li>
                         </ul>
                     </div>
-                    <Button text="Book" link="/"/>
+                    <Button text="Book" link="/contact"/>
                 </div>
             </div>
         </div>

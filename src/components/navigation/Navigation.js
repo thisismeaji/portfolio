@@ -21,7 +21,7 @@ export default function Navigation() {
             <div className={Styles.logo}>
                 <Link href="/">
                     <Image
-                        src="/assets/images/logo-ajisakakamandanu.png"
+                        src="/assets/images/logo.png"
                         alt="Logo Ajisaka Kamandanu"
                         width={1000}
                         height={1000}
@@ -36,8 +36,8 @@ export default function Navigation() {
                     <Link href="/about" onClick={closeMenu}>
                         <li>About</li>
                     </Link>
-                    <Link href="/portfolio" onClick={closeMenu}>
-                        <li>Portfolio</li>
+                    <Link href="/work" onClick={closeMenu}>
+                        <li>Work</li>
                     </Link>
                     <Link href="/contact" onClick={closeMenu}>
                         <li>Contact</li>

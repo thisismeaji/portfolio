@@ -58,9 +58,7 @@ export default function About() {
       />
       <ParticlesBackground/>
       <AboutSection/>
-      <div>
-        <SkillsSection/>
-      </div>
+      <SkillsSection/>
       <EducationSection/>
       <HobbiesSection/>
       <section className={Styles.ctaSection}>
