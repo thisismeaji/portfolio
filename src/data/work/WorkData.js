@@ -6,9 +6,9 @@ import Image from 'next/image';
 export default function WorkData() {
   const portfolioLinks = [
     { id: 1, url: "https://ellen-downing.vercel.app/" },
-    { id: 2, url: "/project-2" },
-    { id: 3, url: "/project-3" },
-    { id: 4, url: "/project-4" },
+    { id: 2, url: "https://ellen-downing.vercel.app/" },
+    { id: 3, url: "https://ellen-downing.vercel.app/" },
+    { id: 4, url: "https://ellen-downing.vercel.app/" },
   ];
   return (
     <div className={Styles.work}>

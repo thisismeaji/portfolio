@@ -81,7 +81,7 @@ export default function Home() {
       <Head>
         <meta property="og:title" content="Ajisaka Kamandanu - Frontend Developer" />
         <meta property="og:description" content="Hi, I'm Aji, a Frontend Developer focused on creating responsive, intuitive, and user-friendly web interfaces." />
-        <meta property="og:image" content="https://thisismeaji.com/images/profile.jpg" />
+        <meta property="og:image" content="https://thisismeaji.com/assets/images/profile.jpg" />
         <meta property="og:url" content="https://thisismeaji.com/" />
       </Head>
       <ParticlesBackground />
