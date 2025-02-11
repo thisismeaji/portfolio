@@ -30,18 +30,26 @@ export default function Navigation() {
             </div>
             <div className={`${Styles.listNav} ${menuActive ? Styles.active : ""}`}>
                 <ul>
-                    <Link href="/" onClick={closeMenu}>
-                        <li>Home</li>
-                    </Link>
-                    <Link href="/about" onClick={closeMenu}>
-                        <li>About</li>
-                    </Link>
-                    <Link href="/work" onClick={closeMenu}>
-                        <li>Work</li>
-                    </Link>
-                    <Link href="/contact" onClick={closeMenu}>
-                        <li>Contact</li>
-                    </Link>
+                    <li>
+                        <Link href="/" onClick={closeMenu}>
+                            home
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/about" onClick={closeMenu}>
+                            About
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/work" onClick={closeMenu}>
+                            Work
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/contact" onClick={closeMenu}>
+                            Contact
+                        </Link>
+                    </li>
                 </ul>
             </div>
             <Link href="/contact">
